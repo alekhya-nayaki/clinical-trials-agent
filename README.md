@@ -1,2 +1,21 @@
-# clinical-trials-agent
-AI agent that answers clinical trial and literature questions using RAG over PubMed and live ClinicalTrials.gov queries, with citations and a measured evaluation set. Built with public data.
+# Clinical Trials Intelligence Agent
+
+An AI agent that answers questions about clinical trials and published evidence
+for a chosen therapeutic area, combining retrieval over PubMed abstracts with
+live queries to ClinicalTrials.gov. Answers include source citations.
+
+> **Status:** Work in progress (v1: basic RAG)
+> Built with public data only.
+
+## Problem
+Teams in life sciences spend significant time tracking trials and literature
+across multiple sources. This project explores how far a well-evaluated
+RAG/agent system can automate that workflow.
+
+## Scope
+- Therapeutic area: [e.g., GLP-1 therapies in obesity]
+- Sources: PubMed abstracts, ClinicalTrials.gov
+- Out of scope: [patient data, medical advice, etc.]
+
+## Architecture
+_Diagram coming soon._
