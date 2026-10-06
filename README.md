@@ -19,3 +19,30 @@ RAG/agent system can automate that workflow.
 
 ## Architecture
 _Diagram coming soon._
+
+## Versions and Results
+| Version | What changed | Recall@5 | Answer faithfulness | Avg latency | Cost/query |
+|---|---|---|---|---|---|
+| v1 | Basic vector RAG | - | - | - | - |
+| v2 | + Hybrid search, reranking, metadata filters | - | - | - | - |
+| v3 | + Agent with tool routing | - | - | - | - |
+
+Evaluation set: [N] hand-written questions in `eval/questions.jsonl`.
+
+## Setup
+```bash
+git clone <repo-url> && cd clinical-trials-agent
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env   # add your keys
+```
+
+## Usage
+_Coming soon._
+
+## Limitations
+_To be filled in honestly as I learn them._
+
+## Data and Disclaimer
+Uses publicly available data from PubMed and ClinicalTrials.gov. This is a
+portfolio project and does not provide medical advice.
